@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './Components/Cards/Card'
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <p>Here is where the Card should be inserting</p>
+      <Card />
     </div>
   );
 }
