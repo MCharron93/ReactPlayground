@@ -24,7 +24,7 @@ function App() {
         </p>
       </header>
         {/* NOTE custom styles can be inserted before the JSX element to controll for more customization with CSS */}
-      <div className="body">
+      <div className="main">
         {/* NOTE This is where custome JSX components can be loaded in. They can have different classes and effects layered on top of them to become more dynamic.*/}
         {/* NOTE In this case, one could use .map() to iterate over an array of Objs to render multiple cards  */}
         {cards.map((card, index) => {

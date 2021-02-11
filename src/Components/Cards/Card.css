@@ -1,5 +1,6 @@
 .card-container{
     width: fit-content;
+    height: fit-content;
     border: 1px solid rgb(41, 128, 199);
     padding-left: 2rem;
     padding-right: 2rem;
