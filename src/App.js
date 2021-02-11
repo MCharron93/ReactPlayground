@@ -4,6 +4,7 @@ import Card from './Components/Cards/Card'
 
 function App() {
 
+  // NOTE dummie data that will be used by the Card component when it is rendered. The Card returns the formatting for the data, and the .map() iterates over the given array of cards
   const cards = [
     {title: "New Blog Post",
     description: "I have a very cute dog. I love to play ball with him"},
