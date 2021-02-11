@@ -29,5 +29,6 @@
 .body{
   display: flex;
   justify-content: center;
-  background-image: url();
+  /* background-image: url("main-background.jpg"); NOTE try to see why this doesn't work */
+  background-color: linear-gradient(to right, #bdb2ff, #caffbf);
 }
